@@ -1,0 +1,31 @@
+WHY
+====
+
+I made this script after seeing a friend picking a ranodm link out of us
+bookmarks. It just picks random links out of a text file. They have to be a
+newline urls
+
+like this
+
+http://foo.com/
+http://barz.org/
+
+Just a weird script
+
+
+USAGE
+=====
+
+-a --add just adds a url to the list
+-q --nobroswer just prints out the url instead of opening it in the defualt
+broswer
+
+-h --help shows this
+
+
+Example
+========
+
+ranurl -a http://foo_bar.com/ - adds a url
+ranurl -q - prints out the random url
+ranurl - opens it in a broswer
