@@ -59,7 +59,6 @@ def readUrls():
     file = open("url.db", "r")
     urls = file.readlines()
     file.close()
-    print(urls)
     return urls
 
 def pickUrl(urls):
